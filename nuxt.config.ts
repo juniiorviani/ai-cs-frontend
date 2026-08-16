@@ -11,10 +11,11 @@ export default defineNuxtConfig({
     // Injected by the platform as an env var. Server-side only: the browser talks
     // to /api/customers/:id/analyze and Nitro proxies to the real backend, so the
     // URL also works when it is an internal (cluster) address.
-    backendUrl: process.env.BACKEND_URL || '',
+    // Falls back to the account's gateway route for the backend (public, test env).
+    backendUrl: process.env.BACKEND_URL || 'https://nukkdemo-test.br-1.nukk.com.br/api',
     public: {
       // Exposed only so the UI can tell the user whether the backend is configured.
-      backendConfigured: Boolean(process.env.BACKEND_URL)
+      backendConfigured: true
     }
   },
   vuetify: {

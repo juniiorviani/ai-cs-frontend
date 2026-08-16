@@ -1,0 +1,25 @@
+node_modules
+.nuxt
+.output
+dist
+.env
+.DS_Store
+
+# Added by Nukk on first push
+node_modules/
+.nuxt/
+.next/
+.output/
+.cache/
+dist/
+build/
+target/
+.gradle/
+*.class
+__pycache__/
+*.pyc
+.venv/
+.env.local
+.idea/
+.vscode/
+*.log

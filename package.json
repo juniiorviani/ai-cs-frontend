@@ -1,0 +1,24 @@
+{
+  "name": "nuxt-app-template",
+  "private": true,
+  "type": "module",
+  "description": "Nuxt 3 + Vuetify template (Nukk frontend app)",
+  "scripts": {
+    "build": "nuxt build",
+    "dev": "nuxt dev --no-fork --host 0.0.0.0 --port 80",
+    "generate": "nuxt generate",
+    "preview": "nuxt preview",
+    "postinstall": "nuxt prepare"
+  },
+  "dependencies": {
+    "nuxt": "^3.14.0",
+    "vue": "^3.5.0",
+    "vue-router": "^4.4.0",
+    "vuetify": "^3.7.0",
+    "vuetify-nuxt-module": "^0.18.3",
+    "@mdi/font": "^7.4.47"
+  },
+  "devDependencies": {
+    "sass-embedded": "^1.80.0"
+  }
+}

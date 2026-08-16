@@ -23,3 +23,9 @@ __pycache__/
 .idea/
 .vscode/
 *.log
+
+.system-prompt.md
+CLAUDE.md
+opencode.md
+AGENTS.md
+.claude/
